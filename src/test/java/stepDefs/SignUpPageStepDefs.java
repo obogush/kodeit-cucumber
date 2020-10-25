@@ -16,18 +16,7 @@ public class SignUpPageStepDefs {
     static WebDriver driver = Driver2.driver("chrome");
 
 
-    @BeforeSuite()
-    public void setup()
-    {
-        // give driver (find elements functions) some time to search for elements in html dom area
-        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
-        // make the windows full screen
-        driver.manage().window().maximize();
-
-        // open the web page
-        driver.get("https://letskodeit.teachable.com");
-    }
 
     @AfterSuite()
     public void tearDown()
