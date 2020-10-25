@@ -53,3 +53,5 @@ public class SignUpPageStepDefs {
         Assert.assertEquals(actual, expected);
     }
 }
+
+// Test github branch
