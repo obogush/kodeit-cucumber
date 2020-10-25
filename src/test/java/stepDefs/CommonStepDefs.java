@@ -1,6 +1,7 @@
 package stepDefs;
 
-import io.cucumber.java.en.Given;
+
+import cucumber.api.java.en.Given;
 import managers.Driver;
 
 public class CommonStepDefs {

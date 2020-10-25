@@ -1,7 +1,8 @@
 package stepDefs;
 
 import PageFactory.PracticePage;
-import io.cucumber.java.en.Then;
+
+import cucumber.api.java.en.Then;
 import org.openqa.selenium.WebDriver;
 
 public class PracticePageStepDefs {
